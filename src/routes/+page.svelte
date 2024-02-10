@@ -82,3 +82,15 @@
 <section class="flex items-center justify-center">
     <iframe width="560" height="315" title="hehe" src="https://www.youtube.com/embed/KUNcP1H7Wi4" frameborder="0" allowfullscreen></iframe>
 </section>
+
+<div class="relative group">
+    <button class="block px-4 py-2 text-left text-gray-700 bg-white border border-gray-300 rounded-md dropdown-toggle hover:bg-gray-100 focus:ring-1 focus:ring-blue-500 focus:outline-none">
+      Hover Me
+    </button>
+    <ul class="absolute z-10 hidden w-48 overflow-hidden bg-white rounded-md shadow-md group-hover:block">
+      <li class="px-4 py-2 text-gray-700 hover:bg-gray-100">Item 1</li>
+      <li class="px-4 py-2 text-gray-700 hover:bg-gray-100">Item 2</li>
+      <li class="px-4 py-2 text-gray-700 hover:bg-gray-100">Item 3</li>
+    </ul>
+  </div>
+  

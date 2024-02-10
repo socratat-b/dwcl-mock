@@ -31,17 +31,171 @@
         </div>
         <nav class="mx-20">
             <ul class="grid grid-flow-col font-semibold tracking-tighter text-center auto-cols-11">
-                <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white bg-[#4b83cc] text-white"><a href="">HOME</a></li>
-                <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white"><a href="">ABOUT US</a></li>
-                <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white"><a href="">ADMISSION</a></li>
-                <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white"><a href="">ACADEMICS</a></li>
-                <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white"><a href="">STUDENT SERVICES</a></li>
+                <li class="relative group w-full py-3 hover:bg-[#4b83cc] hover:text-white bg-[#4b83cc] text-white">
+                    <a href="/">HOME</a>
+                </li>
+                <li class="relative group w-full py-3 hover:bg-[#4b83cc] hover:text-white">
+                    ABOUT US
+                    <ul class="absolute z-10 hidden min-w-52 -translate-x-16 translate-y-3 overflow-hidden bg-[#2a333f] rounded-md shadow-md text-start group-hover:block">
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">HISTORY</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">THE SEAL</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="/">MISSION, VISION, GOAL, & VALUES</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">THE HYMN</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">THE JINGLE</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">THE DIVINIAN PLEDGE</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">ST. ARNOLD'S PRAYER</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">ADMINISTRATORS</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">FACILITIES</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">ORGANIZATIONAL STRUCTURE</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">AWARDS AND RECOGNITION</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="group w-full py-3 hover:bg-[#4b83cc] hover:text-white">
+                    ADMISSION
+                    <ul class="absolute z-10 hidden min-w-52 -translate-x-16 translate-y-3 overflow-hidden bg-[#2a333f] rounded-md shadow-md text-start group-hover:block">
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">ONLINE ENROLLMENT</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">GRADE SCHOOL</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="/">JUNIOR HIGH SCHOOL</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">FREE SECONDARY DISTANCE PROGRAM</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">SENIOR HIGH SCHOOL</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">COLLEGE</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">GRADUATE SCHOOL</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">SCHOLARSHIP</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="group w-full py-3 hover:bg-[#4b83cc] hover:text-white">
+                    ACADEMICS
+                    <ul class="absolute z-10 hidden min-w-52 -translate-x-16 translate-y-3 overflow-hidden bg-[#2a333f] rounded-md shadow-md text-start group-hover:block">
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">GRADE SCHOOL DEPARTMENT</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">JUNIOR HIGH SCHOOL DEPARTMENT</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">FREE SECONDARY DISTANCE PROGRAM</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">SENIOR HIGH SCHOOL DEPARTMENT</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">COLLEGE</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">GRADUATE SCHOOL OF BUSINESS AND MANAGEMENT</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="group w-full py-3 hover:bg-[#4b83cc] hover:text-white">
+                    STUDENT SERVICES
+                    <ul class="absolute z-10 hidden min-w-52 -translate-x-16 translate-y-3 overflow-hidden bg-[#2a333f] rounded-md shadow-md text-start group-hover:block">
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">COMMUNITY EXTENSION SERVICE</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">STUDENT AFFAIRS ORGANIZATION</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">ATHELETICS</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">PUBLICATION</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">CENTER FOR SPIRITUALITY & MISSION</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">SERBISYONG DIVINE</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">REGISTRAR</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">RESEARCH</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">CLINIC</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">CANTEEN</a>
+                        </li>
+                    </ul>
+                </li>
                 <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white"><a href="">CARREER</a></li>
                 <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white"><a href="">GALLERY</a></li>
-                <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white"><a href="">UPDATES</a></li>
+                <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white group">
+                    UPDATES
+                    <ul class="absolute z-10 hidden min-w-52 -translate-x-16 translate-y-3 overflow-hidden bg-[#2a333f] rounded-md shadow-md text-start group-hover:block">
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">CALENDAR</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">ANNOUNCEMENT</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">NEWS AND ANNOUNCEMENT</a>
+                        </li>
+                       
+                    </ul>
+                </li>
                 <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white"><a href="">CONTACT US</a></li>
                 <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white"><a href="">ALUMNI</a></li>
-                <li class="w-full py-3 hover:bg-[#4b83cc] hover:text-white"><a href="">LIBRARY</a></li>
+                <li class="group w-full py-3 hover:bg-[#4b83cc] hover:text-white">
+                    LIBRARY
+                    <ul class="absolute z-10 hidden min-w-52 -translate-x-16 translate-y-3 overflow-hidden bg-[#2a333f] rounded-md shadow-md text-start group-hover:block">
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">GRADE SCHOOL LIBRARY</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">JUNIOR HIGH SCHOOL LIBRARY</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">SENIOR HIGH SCHOOL LIBRARY</a>
+                        </li>
+                        <li class="py-2 text-xs tracking-tight  hover:bg-[#242c34] px-3 text-white border-b border-black">
+                            <a href="">COLLEGE LIBRARY</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         
         </nav>
